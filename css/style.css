@@ -1,0 +1,148 @@
+html{
+  font-family: 'roboto';
+}
+#bug-app {
+  background: #fff;
+  box-shadow: 0px 0px 10px #bdc3c7;
+  border-radius: 3px;
+  border: solid 1px #bdc3c7;
+  width: 800px;
+  margin: 40px auto 0px auto;
+  z-index: 100000;
+  position: fixed;
+  bottom: 0px;
+  right: -800px;
+}
+#bug-app_status-bar {
+  background: #ecf0f1;
+  margin: 0px;
+  list-style: none;
+  padding: 0px 0px 0px 20px;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid #8e44ad;
+  height: 42px;
+}
+#bug-app_status-bar li {
+  display: inline-block;
+  float: left;
+  padding: 5px 30px;
+}
+.bug-app_status-tab {
+  background: #fff;
+}
+.bug-app_send-report button {
+    background: #2ecc71;
+    border: solid 1px #2ecc71;
+    padding: 7px 19px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.bug-app_send-report button:hover {
+      background: #2ECC05;
+      border-color: #2ECC05;
+}
+.bug-app_label-title {
+    font-size: 11px;
+    margin-bottom: 2px;
+    color: #bbb;
+}
+.bug-app_status-data {
+    font-size: 15px;
+}
+#bug-app_status-bar li.bug-app_close-report {
+    font-size: 23px;
+    border-left: 1px solid #bdc3c7;
+    text-align: center;
+    padding: 8px 15px;
+    position: absolute;
+    right: 0px;
+}
+li.bug-app_close-report a {
+  display: block;
+  text-decoration: none;
+  color: #7f8c8d;
+}
+li.bug-app_close-report:hover {
+  background: #fff;
+}
+ul.bug-app_data-lists {
+    margin: 0px;
+    padding: 0px 20px;
+    list-style: none;
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+}
+.bug-app_container {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+}
+#reportDetailsContainer {
+    width: 360px;
+    padding-right: 0px;
+}
+h2 {
+    margin-top: 0px;
+    font-size: 30px;
+    color: #8e44ad;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+h3.bug-app_data-list-label {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+h4.bug-app_data-list-value {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #222;
+    font-weight: 300;
+}
+ul#bug-app_colum_2 {
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+}
+textarea#bug-app_data-comments {
+    border: 1px solid #aaa;
+    width: 100%;
+    margin-top: 10px;
+    height: 145px;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 8px #e7e7e7;
+}
+#ty-container-bug-app {
+  display: none;
+}
+#thankyou-bug-sent {
+    z-index: 20000;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: #fff;
+    opacity: 0.90;
+}
+#ty-bug-sent-message {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 40px;
+    z-index: 31000;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 120px;
+    padding: 10px;
+} 
